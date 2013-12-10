@@ -1,0 +1,76 @@
+[
+    {
+        "repository":   "apollo80/android_device_htc_passion",
+        "target_path":  "device/htc/passion",
+        "branch":       "kitkat"
+    },
+    {
+        "repository":   "apollo80/android_device_htc_qsd8k-common",
+        "target_path":  "device/htc/qsd8k-common",
+        "branch":       "kitkat"
+    },
+    {
+        "repository":   "Evervolv/android_hardware_broadcom_libbt",
+        "target_path":  "hardware/broadcom/libbt",
+        "branch":       "kitkat"
+    },
+    {
+        "repository":   "Evervolv/android_hardware_broadcom_wlan",
+        "target_path":  "hardware/broadcom/wlan",
+        "branch":       "kitkat"
+    },
+    {
+        "repository":   "Evervolv/android_hardware_libhardware",
+        "target_path":  "hardware/libhardware",
+        "branch":       "kitkat"
+    },
+    {
+        "repository":   "Evervolv/android_hardware_libhardware_legacy",
+        "target_path":  "hardware/libhardware_legacy",
+        "branch":       "kitkat"
+    },
+    {
+        "repository":   "Evervolv/android_hardware_qcom_audio-legacy",
+        "target_path":  "hardware/qcom/audio-legacy",
+        "branch":       "kitkat"
+    },
+    {
+        "repository":   "Evervolv/android_hardware_qcom_bt",
+        "target_path":  "hardware/qcom/bt",
+        "branch":       "kitkat"
+    },
+    {
+        "repository":   "Evervolv/android_hardware_qcom_display-legacy",
+        "target_path":  "hardware/qcom/display-legacy",
+        "branch":       "kitkat"
+    },
+    {
+        "repository":   "Evervolv/android_hardware_qcom_gps-legacy",
+        "target_path":  "hardware/qcom/gps-legacy",
+        "branch":       "kitkat"
+    },
+    {
+        "repository":   "Evervolv/android_hardware_qcom_media-legacy",
+        "target_path":  "hardware/qcom/media-legacy",
+        "branch":       "kitkat"
+    },
+    {
+        "repository":   "Evervolv/android_hardware_ril",
+        "target_path":  "hardware/ril",
+        "branch":       "kitkat"
+    },
+    {
+        "repository":   "Evervolv/android_kernel_htc_qsd8k",
+        "target_path":  "kernel/htc/qsd8k",
+        "branch":       "kitkat"
+    },
+    {
+        "repository":   "Evervolv/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3",
+        "target_path":  "prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3",
+        "branch":       "kitkat"
+    },
+    {
+        "repository":   "Evervolv/android_vendor_htc",
+        "target_path":  "vendor/htc",
+        "branch":       "kitkat"
+    }]

@@ -25,7 +25,8 @@
 $(call inherit-product, device/htc/passion/passion_us.mk)
 
 #$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
-$(call inherit-product, $(SRC_EVERVOLV_DIR)/product/lite_base_telephony.mk)
+## -- $(call inherit-product, $(SRC_EVERVOLV_DIR)/product/lite_base_telephony.mk)
+$(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Discard inherited values and use our own instead.
 PRODUCT_NAME := full_passion
