@@ -26,6 +26,7 @@ USE_CAMERA_STUB := true
 
 # Inherit from the proprietary version
 -include vendor/htc/passion/BoardConfigVendor.mk
+
 # inherit common defines for all qsd8k devices
 include device/htc/qsd8k-common/BoardConfigCommon.mk
 
@@ -56,7 +57,7 @@ BOARD_USE_LEGACY_TOUCHSCREEN    := true
 # Userdata: 0x0a840000 168.25 MB
 BOARD_BOOTIMAGE_PARTITION_SIZE := 3145728 #3407872 #3670016
 ## -- BOARD_RECOVERYIMAGE_PARTITION_SIZE := 4194304
-BOARD_RECOVERYIMAGE_PARTITION_SIZE := 4394304
+BOARD_RECOVERYIMAGE_PARTITION_SIZE := 4594304
 
 ##-- BOARD_SYSTEMIMAGE_PARTITION_SIZE := 272629760
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 312629760

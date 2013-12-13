@@ -5,28 +5,8 @@
         "branch":       "kitkat"
     },
     {
-        "repository":   "apollo80/android_device_htc_qsd8k-common",
+        "repository":   "Evervolv/android_device_htc_qsd8k-common",
         "target_path":  "device/htc/qsd8k-common",
-        "branch":       "kitkat"
-    },
-    {
-        "repository":   "Evervolv/android_hardware_broadcom_libbt",
-        "target_path":  "hardware/broadcom/libbt",
-        "branch":       "kitkat"
-    },
-    {
-        "repository":   "Evervolv/android_hardware_broadcom_wlan",
-        "target_path":  "hardware/broadcom/wlan",
-        "branch":       "kitkat"
-    },
-    {
-        "repository":   "Evervolv/android_hardware_libhardware",
-        "target_path":  "hardware/libhardware",
-        "branch":       "kitkat"
-    },
-    {
-        "repository":   "Evervolv/android_hardware_libhardware_legacy",
-        "target_path":  "hardware/libhardware_legacy",
         "branch":       "kitkat"
     },
     {
@@ -35,28 +15,13 @@
         "branch":       "kitkat"
     },
     {
-        "repository":   "Evervolv/android_hardware_qcom_bt",
-        "target_path":  "hardware/qcom/bt",
-        "branch":       "kitkat"
-    },
-    {
         "repository":   "Evervolv/android_hardware_qcom_display-legacy",
         "target_path":  "hardware/qcom/display-legacy",
         "branch":       "kitkat"
     },
     {
-        "repository":   "Evervolv/android_hardware_qcom_gps-legacy",
-        "target_path":  "hardware/qcom/gps-legacy",
-        "branch":       "kitkat"
-    },
-    {
         "repository":   "Evervolv/android_hardware_qcom_media-legacy",
         "target_path":  "hardware/qcom/media-legacy",
-        "branch":       "kitkat"
-    },
-    {
-        "repository":   "Evervolv/android_hardware_ril",
-        "target_path":  "hardware/ril",
         "branch":       "kitkat"
     },
     {
@@ -73,4 +38,10 @@
         "repository":   "Evervolv/android_vendor_htc",
         "target_path":  "vendor/htc",
         "branch":       "kitkat"
-    }]
+    },
+    {
+        "repository":   "apollo80/android_vendor_apollo80",
+        "target_path":  "vendor/apollo80",
+        "branch":       "cm-11.0"
+    }
+]
