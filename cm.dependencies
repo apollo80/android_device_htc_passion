@@ -20,6 +20,11 @@
         "branch":       "kitkat"
     },
     {
+        "repository":   "Evervolv/android_hardware_qcom_gps-legacy",
+        "target_path":  "hardware/qcom/gps-legacy",
+        "branch":       "kitkat"
+    },
+    {
         "repository":   "Evervolv/android_hardware_qcom_media-legacy",
         "target_path":  "hardware/qcom/media-legacy",
         "branch":       "kitkat"
@@ -38,10 +43,5 @@
         "repository":   "Evervolv/android_vendor_htc",
         "target_path":  "vendor/htc",
         "branch":       "kitkat"
-    },
-    {
-        "repository":   "apollo80/android_vendor_apollo80",
-        "target_path":  "vendor/apollo80",
-        "branch":       "cm-11.0"
     }
 ]
