@@ -5,9 +5,9 @@
         "branch":       "kitkat"
     },
     {
-        "repository":   "Evervolv/android_device_htc_qsd8k-common",
+        "repository":   "apollo80/android_device_htc_qsd8k-common",
         "target_path":  "device/htc/qsd8k-common",
-        "branch":       "kitkat"
+        "branch":       "cm-11.0"
     },
     {
         "repository":   "Evervolv/android_hardware_qcom_audio-legacy",

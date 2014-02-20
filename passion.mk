@@ -101,10 +101,68 @@ $(call inherit-product-if-exists, vendor/htc/passion/passion-vendor.mk)
 
 #CM stuff
 PRODUCT_PROPERTY_OVERRIDES += \
+    ro.cm.version=11.0-apollo80-passion \
+    ro.modversion=11.0-apollo80-passion
+
+PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dexopt-data-only=1 \
-    dalvik.vm.jit.codecachesize=0 \
-    ro.sys.force_full_hwa=1
 
 PRODUCT_PACKAGES += \
     Torch \
     libnetcmdiface
+
+
+# packages from system/app
+SDEXT_PRODUCT_PACKAGES := \
+    Apollo \
+    BasicDreams \
+    Bluetooth \
+    BluetoothExt \
+    Browser \
+    Calculator \
+    Calendar \
+    Camera2 \
+    CellBroadcastReceiver \
+    CertInstaller \
+    CMAccount \
+    CMFileManager \
+    CMWallpapers \
+    DeskClock \
+    Development \
+    DocumentsUI \
+    DownloadProviderUi \
+    DSPManager \
+    Email \
+    Exchange2 \
+    Galaxy4 \
+    Gallery2 \
+    HoloSpiralWallpaper \
+    HTMLViewer \
+    InCallUI \
+    KeyChain \
+    LatinIME \
+    LiveWallpapers \
+    LiveWallpapersPicker \
+    LockClock \
+    MagicSmokeWallpapers \
+    NoiseField \
+    PackageInstaller \
+    PacProcessor \
+    PhaseBeam \
+    PhotoTable \
+    PicoTts \
+    PrintSpooler \
+    Provision \
+    QuickSearchBox \
+    SoundRecorder \
+    Stk \
+    TelephonyProvider \
+    Term \
+    ThemeChooser \
+    Torch \
+    UserDictionaryProvider \
+    VideoEditor \
+    VisualizationWallpapers \
+    VoicePlus \
+    WAPPushManager \
+    WhisperPush
