@@ -49,6 +49,11 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
     persist.sys.usb.config=mass_storage \
     persist.service.adb.enable=1
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sdext.device=/dev/block/mmcblk0p2 \
+    ro.sdext.folder=/$(TARGET_COPY_OUT_SDEXT) \
+    ro.sdext.fstype=ext4
+
 # Scrolling cache 0:enable, 1:default enable, 2:default disable, 3:disable
 #ADDITIONAL_DEFAULT_PROPERTIES += \
 #    persist.sys.scrollingcache=2
@@ -93,6 +98,10 @@ PRODUCT_COPY_FILES += \
 # media profiles and capabilities spec
 $(call inherit-product, device/htc/passion/media_a1026.mk)
 
+# sdext packages and files
+$(call inherit-product, device/htc/passion/passion_sdext_packages.mk)
+$(call inherit-product, device/htc/passion/passion_sdext_files.mk)
+
 # Common qsd8k stuff
 $(call inherit-product, device/htc/qsd8k-common/qsd8k.mk)
 
@@ -110,59 +119,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     Torch \
     libnetcmdiface
-
-
-# packages from system/app
-SDEXT_PRODUCT_PACKAGES := \
-    Apollo \
-    BasicDreams \
-    Bluetooth \
-    BluetoothExt \
-    Browser \
-    Calculator \
-    Calendar \
-    Camera2 \
-    CellBroadcastReceiver \
-    CertInstaller \
-    CMAccount \
-    CMFileManager \
-    CMWallpapers \
-    DeskClock \
-    Development \
-    DocumentsUI \
-    DownloadProviderUi \
-    DSPManager \
-    Email \
-    Exchange2 \
-    Galaxy4 \
-    Gallery2 \
-    HoloSpiralWallpaper \
-    HTMLViewer \
-    InCallUI \
-    KeyChain \
-    LatinIME \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    LockClock \
-    MagicSmokeWallpapers \
-    NoiseField \
-    PackageInstaller \
-    PacProcessor \
-    PhaseBeam \
-    PhotoTable \
-    PicoTts \
-    PrintSpooler \
-    Provision \
-    QuickSearchBox \
-    SoundRecorder \
-    Stk \
-    TelephonyProvider \
-    Term \
-    ThemeChooser \
-    Torch \
-    UserDictionaryProvider \
-    VideoEditor \
-    VisualizationWallpapers \
-    VoicePlus \
-    WAPPushManager \
-    WhisperPush
