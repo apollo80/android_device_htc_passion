@@ -38,7 +38,7 @@ BOARD_KERNEL_CMDLINE    := no_console_suspend=1 wire.search_count=5
 BOARD_KERNEL_BASE       := 0x20000000
 BOARD_KERNEL_NEW_PPPOX  := true
 
-TARGET_KERNEL_CONFIG    := evervolv_mahimahi_defconfig
+TARGET_KERNEL_CONFIG    := apollo80_mahimahi_defconfig
 
 TARGET_RECOVERY_FSTAB := device/htc/passion/fstab.mahimahi
 
@@ -62,8 +62,6 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 272629760
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 176422912
 BOARD_FLASH_BLOCK_SIZE := 131072
 
-#more CM mods
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := arm-eabi-4.4.3
-
+# CM mods
 LEGACY_RIL := true
 BOARD_USES_LEGACY_RIL := true

@@ -182,4 +182,8 @@
     <!-- If this is true, the screen will fade off. -->
     <bool name="config_animateScreenLights">false</bool>
 
+    <!-- Enable translucent status bar -->
+    <bool name="config_enableTranslucentDecor">true</bool>
+    <bool name="config_enableLockScreenTranslucentDecor">true</bool>
+
 </resources>

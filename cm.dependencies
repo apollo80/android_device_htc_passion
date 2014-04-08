@@ -2,7 +2,7 @@
     {
         "repository":   "apollo80/android_device_htc_passion",
         "target_path":  "device/htc/passion",
-        "branch":       "kitkat"
+        "branch":       "cm-11.0"
     },
     {
         "repository":   "apollo80/android_device_htc_qsd8k-common",
@@ -30,14 +30,9 @@
         "branch":       "kitkat"
     },
     {
-        "repository":   "Evervolv/android_kernel_htc_qsd8k",
+        "repository":   "apollo80/android_kernel_htc_qsd8k",
         "target_path":  "kernel/htc/qsd8k",
-        "branch":       "kitkat"
-    },
-    {
-        "repository":   "Evervolv/android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.4.3",
-        "target_path":  "prebuilts/gcc/linux-x86/arm/arm-eabi-4.4.3",
-        "branch":       "kitkat"
+        "branch":       "cm-11.0"
     },
     {
         "repository":   "Evervolv/android_vendor_htc",

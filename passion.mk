@@ -115,7 +115,26 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dexopt-data-only=1 \
+    persist.sys.force_highendgfx=true
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sdext.log.debug=enable \
+    persist.sdext.log.verbose=disable \
+    \
+    persist.sdext.device=/dev/block/mmcblk0p2 \
+    persist.sdext.folder=/sd-ext \
+    persist.sdext.fstype=ext4 \
+    persist.sdext.mount-options=rw,nosuid,nodev,noatime,nodiratime,commit=15 \
+    persist.sdext.mount-options2=barrier=1,stripe=64,data=ordered,noauto_da_alloc \
+    \
+    persist.bind.app=enable \
+    persist.bind.app-asec=enable \
+    persist.bind.app-lib=enable \
+    persist.bind.app-private=enable \
+    persist.bind.dalvik-cache=enable \
+    persist.bind.data=disable
 
 PRODUCT_PACKAGES += \
     Torch \
-    libnetcmdiface
+    libnetcmdiface \
+    qrngd
