@@ -80,7 +80,15 @@ SDEXT_PRODUCT_PACKAGES += \
 
 # packages from system/lib
 SDEXT_PRODUCT_PACKAGES += \
-    libwebviewchromium
+    libwebviewchromium \
+    \
+    libFFmpegExtractor \
+    libavcodec \
+    libavformat \
+    libavutil \
+    libswresample \
+    libswscale
+
 
 # other packages
 SDEXT_PRODUCT_PACKAGES += \

@@ -24,6 +24,9 @@
          config_hardware_automatic_brightness_available is not set, so we will use software implementation -->
     <bool name="config_automatic_brightness_available">true</bool>
 
+    <!-- Our amoled doesn't animate well. -->
+    <bool name="config_animateScreenLights">false</bool>
+
     <!-- disable menu hard key on Passion in non-pattern lockscreen -->
     <bool name="config_disableMenuKeyInLockScreen">true</bool>
 
@@ -179,8 +182,11 @@
          which typically is /data/data/com.android.providers.downloads/files -->
     <integer name="config_downloadDataDirSize">40</integer>
 
-    <!-- If this is true, the screen will fade off. -->
-    <bool name="config_animateScreenLights">false</bool>
+    <!-- MMS user agent string -->
+    <string name="config_mms_user_agent" translatable="false">NexusOne</string>
+
+    <!-- MMS user agent prolfile url -->
+    <string name="config_mms_user_agent_profile_url" translatable="false">http://www.htcmms.com.tw/Android/Common/nexusone/ua-profile.xml</string>
 
     <!-- Enable translucent status bar -->
     <bool name="config_enableTranslucentDecor">true</bool>
