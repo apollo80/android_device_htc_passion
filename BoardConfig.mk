@@ -41,6 +41,7 @@ BOARD_KERNEL_NEW_PPPOX  := true
 TARGET_KERNEL_CONFIG    := apollo80_mahimahi_defconfig
 
 TARGET_RECOVERY_FSTAB := device/htc/passion/fstab.mahimahi
+TARGET_NO_SEPARATE_RECOVERY := true
 
 # GPS HAL and AMSS version
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := mahimahi
@@ -51,6 +52,12 @@ TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/usb_mass_storage/lun0/f
 BOARD_USE_LEGACY_TRACKPAD       := true
 BOARD_USE_LEGACY_TOUCHSCREEN    := true
 BOARD_USE_SDEXT_PARTISION       := true
+
+# sd-ext settings
+SDEXT_DEVICE_TYPE := EMMC
+SDEXT_PARTISION := /dev/block/mmcblk0p2
+SDEXT_FS_TYPE := ext4
+
 
 # Boot:     0x00380000 3.5 MB (reduced to 3.0 #3.25)
 # Recovery: 0x00400000 4 MB
