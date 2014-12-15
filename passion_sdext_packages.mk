@@ -31,6 +31,7 @@ SDEXT_PRODUCT_PACKAGES := \
     CertInstaller \
     CMAccount \
     CMFileManager \
+    CMHome \
     CMWallpapers \
     DeskClock \
     Development \
@@ -54,6 +55,7 @@ SDEXT_PRODUCT_PACKAGES := \
     PackageInstaller \
     PacProcessor \
     PhaseBeam \
+    PhotoPhase \
     PhotoTable \
     PrintSpooler \
     Provision \
@@ -73,13 +75,23 @@ SDEXT_PRODUCT_PACKAGES := \
 
 # packages from system/priv-app
 SDEXT_PRODUCT_PACKAGES += \
+    BackupRestoreConfirmation \
+    CMUpdater \
     Mms \
     PicoTts \
     Settings \
-    Trebuchet
+    ThemesProvider \
+    Trebuchet \
+    WallpaperCropper
 
 # packages from system/lib
 SDEXT_PRODUCT_PACKAGES += \
+    libvideoeditorplayer \
+    libvideoeditor_jni \
+    libvideoeditor_osal \
+    libvideoeditor_core \
+    libvideoeditor_videofilters \
+    \
     libwebviewchromium \
     \
     libFFmpegExtractor \
